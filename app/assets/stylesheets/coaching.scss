@@ -1,3 +1,16 @@
 // Place all the styles related to the Coaching controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.card {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(213, 206, 218);
+  border-left: 8px solid rgb(246, 128, 5);
+
+  h3 {
+    font-size: 23px;
+    line-height: 27px;
+  }
+}

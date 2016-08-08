@@ -5,6 +5,6 @@ class CoachingController < ApplicationController
 
   def answer
     @query = params[:query]
-    @debile = %w(oui MisterBrown 30)
+    @debile = ["oui","Mister Brown", "Effectivement, tu as raison", "Je crois que oui", "Mais oui, c'est clair", "En Argentine"]
   end
 end
