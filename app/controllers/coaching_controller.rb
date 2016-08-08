@@ -7,7 +7,7 @@ class CoachingController < ApplicationController
 
   def answer
     @query = params[:query]
-    @anwser = coach_answer_enhanced(@query)
+    @anwser = coach_answer(@query)
 #    @debile = ["peut être","Mister Brown", "Effectivement, tu as raison", "Je crois que c'est bleu", "Mais oui, c'est clair", "Kakamoulox"]
 
   end
